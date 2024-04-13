@@ -1,4 +1,4 @@
-import { Document } from "@react-pdf/renderer";
+
 import mammoth from "mammoth";
 import { IoCloudUploadSharp } from "react-icons/io5";
 import { MdOutlineContentCopy } from "react-icons/md";
@@ -19,7 +19,8 @@ function Bottombar({ content, setContent }) {
     const reader = new FileReader();
     const extension = file.name.split(".").pop().toLowerCase();
     if (extension === "pdf") {
-      readPDFFile(file);
+      
+      
     } else if (extension === "txt") {
       reader.onload = async (event) => {
         const content = event.target.result;
@@ -31,26 +32,6 @@ function Bottombar({ content, setContent }) {
     } else {
       console.error("Unsupported file type");
     }
-  };
-
-  const readPDFFile = async (file) => {
-    const reader = new FileReader();
-    reader.onload = async (event) => {
-      const content = event.target.result;
-      try {
-        const pdfDoc = await Document.create(content);
-        let text = "";
-        for (let i = 0; i < pdfDoc.numPages; i++) {
-          const page = pdfDoc.getPage(i);
-          const pageText = await page.getTextContent();
-          text += pageText.items.map((item) => item.str).join("");
-        }
-        setContent(text);
-      } catch (error) {
-        console.error("Error reading PDF:", error);
-      }
-    };
-    reader.readAsArrayBuffer(file);
   };
 
   const readDOCXFile = async (file) => {
