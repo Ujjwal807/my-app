@@ -17,17 +17,19 @@ function Bottombar({ content, setContent }) {
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
     const reader = new FileReader();
-    const extension = file.name.split('.').pop().toLowerCase();
+    const extension = file.name.split(".").pop().toLowerCase();
     if (extension === "pdf") {
-        readPDFFile(file);
+      readPDFFile(file);
     } else if (extension === "txt") {
-      const text = event.target.result;
-      setContent(text);
-    }
-    else if (extension === "docx" || extension === "docs") {
-        readDOCXFile(file);
+      reader.onload = async (event) => {
+        const content = event.target.result;
+        setContent(content);
+      };
+      reader.readAsText(file);
+    } else if (extension === "docx" || extension === "docs") {
+      readDOCXFile(file);
     } else {
-      console.error('Unsupported file type');
+      console.error("Unsupported file type");
     }
   };
 
@@ -37,15 +39,15 @@ function Bottombar({ content, setContent }) {
       const content = event.target.result;
       try {
         const pdfDoc = await Document.create(content);
-        let text = '';
+        let text = "";
         for (let i = 0; i < pdfDoc.numPages; i++) {
           const page = pdfDoc.getPage(i);
           const pageText = await page.getTextContent();
-          text += pageText.items.map((item) => item.str).join('');
+          text += pageText.items.map((item) => item.str).join("");
         }
         setContent(text);
       } catch (error) {
-        console.error('Error reading PDF:', error);
+        console.error("Error reading PDF:", error);
       }
     };
     reader.readAsArrayBuffer(file);
@@ -59,7 +61,7 @@ function Bottombar({ content, setContent }) {
         const result = await mammoth.extractRawText({ arrayBuffer: content });
         setContent(result.value);
       } catch (error) {
-        console.error('Error reading DOCX:', error);
+        console.error("Error reading DOCX:", error);
       }
     };
     reader.readAsArrayBuffer(file);
@@ -76,7 +78,7 @@ function Bottombar({ content, setContent }) {
             id="file-upload"
             type="file"
             onChange={handleFileUpload}
-            accept=".application/pdf, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            accept=".application/pdf, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document .txt"
             style={{ position: "absolute", top: "-9999px", left: "-9999px" }}
           />
         </div>
