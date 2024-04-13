@@ -30,7 +30,7 @@ export default function Home() {
       />
 
       <div className="max-w-screen-xl w-full h-full	">
-        <div className="flex flex-col h-screen	 justify-center 	 items-center">
+        <div className="flex flex-col	justify-center 	 items-center">
           <h1
             className={
               `${cursive.className} ` + "text-4xl font-bold text-white"
