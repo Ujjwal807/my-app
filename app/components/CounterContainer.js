@@ -1,5 +1,4 @@
 import Counter from "./Counter";
-
 function CounterContainer({ content }) {
   const wordPerMinute = 100;
   let wordCount = content.length === 0 ? 0 : content.trim().split(/\s+/).length;
