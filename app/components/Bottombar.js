@@ -16,10 +16,15 @@ function Bottombar({ content, setContent }) {
 
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
+    const reader = new FileReader();
     const extension = file.name.split('.').pop().toLowerCase();
     if (extension === "pdf") {
         readPDFFile(file);
-    } else if (extension === "docx" || extension === "docs") {
+    } else if (extension === "txt") {
+      const text = event.target.result;
+      setContent(text);
+    }
+    else if (extension === "docx" || extension === "docs") {
         readDOCXFile(file);
     } else {
       console.error('Unsupported file type');
