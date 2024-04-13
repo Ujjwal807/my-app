@@ -9,12 +9,13 @@ import "react-toastify/dist/ReactToastify.css";
 import CounterContainer from "./components/CounterContainer";
 import InputText from "./components/InputText";
 import Bottombar from "./components/Bottombar";
+import HomeContent from "./components/HomeContent";
 
 export default function Home() {
   const [content, setContent] = useState("");
 
   return (
-    <main className="flex justify-center">
+    <main className="flex pt-10 justify-center">
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -31,7 +32,9 @@ export default function Home() {
       <div className="max-w-screen-xl w-full">
         <div className="flex flex-col h-screen	 justify-center 	 items-center">
           <h1
-            className={`${cursive.className} ` + "text-4xl font-bold text-white"}
+            className={
+              `${cursive.className} ` + "text-4xl font-bold text-white"
+            }
           >
             Counter
           </h1>
@@ -40,6 +43,7 @@ export default function Home() {
             <InputText content={content} setContent={setContent} />
             <Bottombar content={content} setContent={setContent} />
           </div>
+          <HomeContent/>
         </div>
       </div>
     </main>
