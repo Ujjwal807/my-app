@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Inter, Cedarville_Cursive, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const cursive = Cedarville_Cursive({ subsets: ["latin"] , weight : "400"});
+const inter = Inter({ subsets: ["latin"] , weight : "400"});
+const monteserrat = Montserrat({ subsets: ["latin"] , weight : "400"});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={monteserrat.className}
+        style={{ background: "url(/bg.jpg)", backgroundSize: "Cover" }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
