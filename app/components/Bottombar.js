@@ -17,16 +17,12 @@ function Bottombar({ content, setContent }) {
   const handleFileUpload = async (e) => {
     const file = e.target.files[0];
     const extension = file.name.split('.').pop().toLowerCase();
-    switch (extension) {
-      case 'pdf':
+    if (extension === "pdf") {
         readPDFFile(file);
-        break;
-      case 'docx':
+    } else if (extension === "docx" || extension === "docs") {
         readDOCXFile(file);
-        break;
-      default:
-        console.error('Unsupported file type');
-        break;
+    } else {
+      console.error('Unsupported file type');
     }
   };
 
