@@ -1,9 +1,11 @@
-import { Inter, Cedarville_Cursive, Montserrat } from "next/font/google";
+import { Inter, Cedarville_Cursive, Montserrat, Lato } from "next/font/google";
 import "./globals.css";
+import Sidebar from "./components/Sidebar";
 
 const cursive = Cedarville_Cursive({ subsets: ["latin"], weight: "400" });
 const inter = Inter({ subsets: ["latin"], weight: "400" });
 const monteserrat = Montserrat({ subsets: ["latin"], weight: "400" });
+const lato = Lato({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={monteserrat.className}
+        className={lato.className}
         style={{
           background: "url(/bg.jpg)",
           backgroundSize: "cover",
@@ -23,7 +25,9 @@ export default function RootLayout({ children }) {
           
         }}
       >
+        <Sidebar/>
         {children}
+
       </body>
     </html>
   );

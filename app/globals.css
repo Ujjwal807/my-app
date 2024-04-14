@@ -8,6 +8,26 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+} 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  /* border-radius: 10px; */
+  background: #181717;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgba(94, 94, 94, 0.808);
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c3bf3;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,8 +35,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-
 
 @layer utilities {
   .text-balance {

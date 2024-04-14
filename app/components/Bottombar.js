@@ -49,7 +49,7 @@ function Bottombar({ content, setContent }) {
   };
 
   return (
-    <div className="w-full backdrop-blur-sm bg-gray-400/20  rounded-lg p-2 mx-2">
+    <div className="w-full backdrop-blur-sm bg-gray-900/50  rounded-lg p-2 mx-2">
       <div className="flex justify-between">
         <div style={{ position: "relative", display: "inline-block" }}>
           <label htmlFor="file-upload">
