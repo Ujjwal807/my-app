@@ -1,4 +1,7 @@
 "use client"
+import { Inter, Cedarville_Cursive, Montserrat, Lato } from "next/font/google";
+
+const lato = Cedarville_Cursive({ subsets: ["latin"], weight: "400" });
 
 import { useState } from "react";
 import MobileNav from "./MobileNav";
@@ -11,7 +14,7 @@ function Navbar() {
         <div className="text-white bg-blue-secondary pt-6 pb-4">
             <div className="max-w-[1200px] flex justify-between items-center mx-auto px-8 min-[320px]:pl-[1rem]">
                 <div>
-                    <h1 className="text-2xl ">Online Sentence Counter</h1>
+                    <h1 className={`text-2xl ${lato.className}`}>Online Sentence Counter</h1>
                 </div>
                 <div className=" flex lg:flex hidden gap-12">
                     <ul className="flex font-medium text-xl">

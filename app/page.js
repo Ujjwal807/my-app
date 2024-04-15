@@ -19,7 +19,6 @@ export default function Home() {
     const paragraphCount = content.length === 0 ? 0 : content.split(/\n{2,}/).length;
 
     const handleDownloadReport = () => {
-        // Create a new PDF document
         const doc = new jsPDF();
 
         // Add content to the PDF
@@ -32,10 +31,8 @@ export default function Home() {
             ? (readingTime * 60).toFixed(2) + ` s`
             : readingTime + ` m`}`, 10, 60);
 
-        // Save the PDF
         doc.save("report.pdf");
 
-        // Show a success message
         toast.success("Report downloaded successfully!");
     };
 
@@ -56,7 +53,7 @@ export default function Home() {
 
       <div className="max-w-screen-xl w-full h-full ">
         <div className="flex flex-col justify-center items-center">
-            <p className="text-white py-2 my-6 px-52">Our online sentence counter is a comprehensive tool that accurately counts sentences, words, and characters in your text. It offers unique features like text upload, copy/paste functionality, live character count, highlighting, and downloadable reports to enhance your writing experience and optimize your content for clarity, engagement, and SEO performance.</p>
+            <p className="text-white py-2 my-6 px-4 text-center md:px-52">Our online sentence counter is a comprehensive tool that accurately counts sentences, words, and characters in your text. It offers unique features like text upload, copy/paste functionality, live character count, highlighting, and downloadable reports to enhance your writing experience and optimize your content for clarity, engagement, and SEO performance.</p>
             <CounterContainer content={content} />
           <div className="w-full min-[320px]:w-11/12">
             <InputText content={content} setContent={setContent} />
