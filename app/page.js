@@ -53,7 +53,6 @@ export default function Home() {
 
       <div className="max-w-screen-xl w-full h-full ">
         <div className="flex flex-col justify-center items-center">
-            <p className="text-white py-2 my-6 px-4 text-center md:px-52">Our online sentence counter is a comprehensive tool that accurately counts sentences, words, and characters in your text. It offers unique features like text upload, copy/paste functionality, live character count, highlighting, and downloadable reports to enhance your writing experience and optimize your content for clarity, engagement, and SEO performance.</p>
             <CounterContainer content={content} />
           <div className="w-full min-[320px]:w-11/12">
             <InputText content={content} setContent={setContent} />
