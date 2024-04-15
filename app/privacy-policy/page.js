@@ -9,21 +9,21 @@ function Privacy() {
       </div>
       <div className="bg-zinc-600/30 text-white backdrop-blur-sm  p-2 md:p-8 rounded-md md:w-[1000px] mx-auto">
         <p>
-          At randommoviegenerator.net, accessible from
+          At sentence-counter.co, accessible from
           <a
-            href="https://randommoviegenerator.net"
+            href="https://sentence-counter.co/"
             className="font-semibold underline"
           >
-            randommoviegenerator.net
+            sentence-counter.co
           </a>
           , one of our main priorities is the privacy of our visitors. This
           Privacy Policy document contains types of information that is
-          collected and recorded by randommoviegenerator.net and how we use it.
+          collected and recorded by sentence-counter.co and how we use it.
           If you have additional questions or require more information about our
           Privacy Policy, do not hesitate to contact us. This Privacy Policy
           applies only to our online activities and is valid for visitors to our
           website with regards to the information that they shared and/or
-          collect in randommoviegenerator.net. This policy is not applicable to
+          collect in sentence-counter.co. This policy is not applicable to
           any information collected offline or via channels other than this
           website.
         </p>
@@ -84,7 +84,7 @@ function Privacy() {
                 <strong>Log Files</strong>
               </h2>
               <p>
-                randommoviegenerator.net follows a standard procedure of using
+                sentence-counter.co follows a standard procedure of using
                 log files. These files log visitors when they visit websites.
                 All hosting companies do this and a part of hosting services'
                 analytics. The information collected by log files include
@@ -102,7 +102,7 @@ function Privacy() {
                 <strong>Cookies and Web Beacons</strong>
               </h2>
               <p>
-                Like any other website, randommoviegenerator.net uses "cookies".
+                Like any other website, sentence-counter.co uses "cookies".
                 These cookies are used to store information including visitor's
                 preferences, and the pages on the website that the visitor
                 accessed or visited. The information is used to optimize the
@@ -130,16 +130,16 @@ function Privacy() {
               </h2>
               <p>
                 You may consult this list to find the Privacy Policy for each of
-                the advertising partners of randommoviegenerator.net.
+                the advertising partners of sentence-counter.co.
                 Third-party ad servers or ad networks uses technologies like
                 cookies, JavaScript, or Web Beacons that are used in their
                 respective advertisements and links that appear on
-                randommoviegenerator.net, which are sent directly to users'
+                sentence-counter.co, which are sent directly to users'
                 browser. They automatically receive your IP address when this
                 occurs. These technologies are used to measure the effectiveness
                 of their advertising campaigns and/or to personalize the
                 advertising content that you see on websites that you visit.
-                Note that randommoviegenerator.net has no access to or control
+                Note that sentence-counter.co has no access to or control
                 over these cookies that are used by third-party advertisers.
               </p>
             </li>
@@ -148,7 +148,7 @@ function Privacy() {
                 <strong>Third Party Privacy Policies</strong>
               </h2>
               <p>
-                randommoviegenerator.net's Privacy Policy does not apply to
+                sentence-counter.co's Privacy Policy does not apply to
                 other advertisers or websites. Thus, we are advising you to
                 consult the respective Privacy Policies of these third-party ad
                 servers for more detailed information. It may include their
@@ -223,7 +223,7 @@ function Privacy() {
                 activity.
               </p>
               <p>
-                randommoviegenerator.net does not knowingly collect any Personal
+                sentence-counter.co does not knowingly collect any Personal
                 Identifiable Information from children under the age of 13. If
                 you think that your child provided this kind of information on
                 our website, we strongly encourage you to contact us immediately
