@@ -11,7 +11,7 @@ function Footer() {
       </div>
       <ul className="flex space-x-5 justify-center">
         <li className="bg-white px-3 py-1 rounded">
-          <Link href="/about-us">About Us</Link>
+          <Link href="/about">About Us</Link>
         </li>
         <li className="bg-white px-3 py-1 rounded">
           <Link href="/privacy-policy">Privacy Policy</Link>
