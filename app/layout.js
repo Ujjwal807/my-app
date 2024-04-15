@@ -1,6 +1,7 @@
 import { Inter, Cedarville_Cursive, Montserrat, Lato } from "next/font/google";
 import "./globals.css";
 import Navbar from "../app/components/Navbar";
+import Footer from "@/app/components/Footer";
 
 
 const lato = Lato({ subsets: ["latin"], weight: "400" });
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
-
+        <Footer/>
       </body>
     </html>
   );
