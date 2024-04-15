@@ -1,17 +1,43 @@
 "use client";
 import { useState } from "react";
-
-import { ToastContainer } from "react-toastify";
-
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CounterContainer from "./components/CounterContainer";
 import InputText from "./components/InputText";
 import Bottombar from "./components/Bottombar";
 import HomeContent from "./components/HomeContent";
-
+import jsPDF from "jspdf";
 
 export default function Home() {
   const [content, setContent] = useState("");
+
+    const wordPerMinute = 100;
+    let wordCount = content.length === 0 ? 0 : content.trim().split(/\s+/).length;
+    const readingTime = wordCount / wordPerMinute;
+    const characterCount = content.split("").length;
+    const sentenceCount = content.split(/[.!?]+/).filter((sentence) => sentence.trim() !== "").length;
+    const paragraphCount = content.length === 0 ? 0 : content.split(/\n{2,}/).length;
+
+    const handleDownloadReport = () => {
+        // Create a new PDF document
+        const doc = new jsPDF();
+
+        // Add content to the PDF
+        doc.text("Report", 10, 10);
+        doc.text(`Total Words: ${wordCount}`, 10, 20);
+        doc.text(`Total Characters: ${characterCount}`, 10, 30);
+        doc.text(`Total Sentences: ${sentenceCount}`, 10, 40);
+        doc.text(`Total Paragraphs: ${paragraphCount}`, 10, 50);
+        doc.text(`Total Reading Time: ${readingTime < 1
+            ? (readingTime * 60).toFixed(2) + ` s`
+            : readingTime + ` m`}`, 10, 60);
+
+        // Save the PDF
+        doc.save("report.pdf");
+
+        // Show a success message
+        toast.success("Report downloaded successfully!");
+    };
 
   return (
     <main className="flex  justify-center">
@@ -37,7 +63,7 @@ export default function Home() {
             <Bottombar content={content} setContent={setContent} />
           </div>
           <div className="mt-6">
-            <button className="py-2 px-6 bg-indigo-500 rounded-lg text-white text-2xl">Download Report</button>
+            <button onClick={handleDownloadReport} className="py-2 px-6 bg-indigo-500 rounded-lg text-white text-2xl">Download Report</button>
           </div>
           <HomeContent />
         </div>

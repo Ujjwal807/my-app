@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.4.2",
+    "jspdf": "^2.5.1",
     "mammoth": "^1.7.1",
     "next": "^14.2.1-canary.3",
     "pdfjs-dist": "^4.1.392",
