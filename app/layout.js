@@ -1,14 +1,12 @@
 import { Inter, Cedarville_Cursive, Montserrat, Lato } from "next/font/google";
 import "./globals.css";
-import Sidebar from "./components/Sidebar";
+import Navbar from "../app/components/Navbar";
 
-const cursive = Cedarville_Cursive({ subsets: ["latin"], weight: "400" });
-const inter = Inter({ subsets: ["latin"], weight: "400" });
-const monteserrat = Montserrat({ subsets: ["latin"], weight: "400" });
+
 const lato = Lato({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
-  title: "Create Next App",
+  title: "Online Sentence Counter",
   description:
     "Accurate online sentence counter with word count, character count, and readability metrics for optimized writing",
 };
@@ -22,10 +20,9 @@ export default function RootLayout({ children }) {
           background: "url(/bg.jpg)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
-          
         }}
       >
-        <Sidebar/>
+        <Navbar/>
         {children}
 
       </body>

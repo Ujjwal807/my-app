@@ -18,10 +18,10 @@ function HomeContent() {
       <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
         Why is an Accurate Sentence Count Important?
       </h3>
-      <p className="px-6">
+      <p className="px-6 min-[320px]:text-2xl">
         An accurate sentence count is essential for several reasons:
       </p>
-      <ol type="1" className="py-4 px-8">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li>
           <span className="font-bold mt-2">Readability :</span> The length and
           complexity of your sentences can significantly impact the readability
@@ -43,7 +43,7 @@ function HomeContent() {
           audience engaged.
         </li>
       </ol>
-      <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
+      <h3 className="text-3xl my-6 mt-10 font-semibold text-center min-[320px]:text-2xl">
         Understanding the Impact of Sentence Length on Readability
       </h3>
       <p className="px-6">
@@ -96,16 +96,16 @@ function HomeContent() {
         counter, you can easily monitor your sentence length and make
         adjustments as needed.
       </p>
-      <h3 className="text-4xl my-6 mt-10 font-semibold text-center">
+      <h3 className="text-4xl my-6 mt-10 font-semibold text-center min-[320px]:text-2xl">
         How Does Our Online Sentence Counter Work?
       </h3>
-      <p className="px-6">
+      <p className="px-6 min-[320px]:px-4">
         Our online sentence counter is a web-based tool that accurately counts
         the number of sentences in a given text, while also providing a range of
         additional features to enhance your writing experience. Here's how it
         works:
       </p>
-      <ol type="1" className="py-4 px-8">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li>
           <span className="font-bold mt-2">
             Text Upload and Copy/Paste Functionality :
@@ -129,7 +129,7 @@ function HomeContent() {
           additional metrics to help you optimize your content:
         </li>
       </ol>
-      <ol type="1" className="py-4 px-16">
+      <ol type="1" className="py-4 px-16 min-[320px]:px-4">
         <li>
           <span className="font-bold mt-2">Word Count :</span>
           Knowing the total number of words in your text is essential for
@@ -153,7 +153,7 @@ function HomeContent() {
           content effectively.
         </li>
       </ol>
-      <ol type="1" className="py-4 px-8">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li className="mt-2">
           <span className="font-bold">
             Highlighting and Downloadable Reports :
@@ -168,11 +168,11 @@ function HomeContent() {
       <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
         Top Features of Our Sentence Counter Tool
       </h3>
-      <p className="px-6">
+      <p className="px-6 min-[320px]:px-4">
         Our online sentence counter offers a range of unique features designed
         to enhance your writing experience:
       </p>
-      <ul className="py-4 px-8">
+      <ul className="py-4 px-8 min-[320px]:px-4">
         <li>
           <span className="font-bold">Text Upload :</span>
           Easily upload text files in various formats (TXT, DOCX, etc.) for
@@ -199,17 +199,17 @@ function HomeContent() {
           for easy reference and sharing.
         </li>
       </ul>
-      <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
+      <h3 className="text-3xl my-6 mt-10 font-semibold text-center min-[320px]:text-2xl">
         Common Pitfalls: Avoiding Run-On Sentences and Ensuring Accurate Counts
       </h3>
-      <p className="p-6">
+      <p className="p-6 min-[320px]:px-4">
         One of the most common pitfalls when using an online sentence counter is
         the presence of run-on sentences. A run-on sentence occurs when two or
         more independent clauses are joined without proper punctuation or
         conjunctions, resulting in an inaccurate sentence count.
       </p>
-      <p className="p-6">To avoid this issue, follow these tips:</p>
-      <ol type="1" className="py-4 px-8">
+      <p className="p-6 min-[320px]:px-4">To avoid this issue, follow these tips:</p>
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li className="mt-2">
           Use proper punctuation, such as periods, commas, and semicolons, to
           separate independent clauses.
@@ -225,12 +225,12 @@ function HomeContent() {
       <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
         Why Choose Our Online Sentence Counter?
       </h3>
-      <p className="p-6">
+      <p className="p-6 min-[320px]:px-4">
         Our online sentence counter stands out from the competition by offering
         a comprehensive set of features designed to enhance your writing
         experience:
       </p>
-      <ol type="1" className="py-4 px-8">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li className="mt-2">
           <span className="font-bold">Accuracy :</span>
           Our advanced algorithms ensure that you receive an accurate sentence

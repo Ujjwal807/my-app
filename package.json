@@ -11,7 +11,7 @@
   "dependencies": {
     "@react-pdf/renderer": "^3.4.2",
     "mammoth": "^1.7.1",
-    "next": "^14.2.1-canary.4",
+    "next": "^14.2.1-canary.3",
     "pdfjs-dist": "^4.1.392",
     "react": "^18",
     "react-dom": "^18",
@@ -19,6 +19,8 @@
     "react-toastify": "^10.0.5"
   },
   "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.78",
     "eslint": "^8",
     "eslint-config-next": "14.2.0",
     "postcss": "^8",

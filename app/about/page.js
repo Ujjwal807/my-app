@@ -1,11 +1,8 @@
 'use client'
-import { Sidebar } from "../components/Sidebar";
 
-/* eslint-disable react/no-unescaped-entities */
 export default function About() {
   return (
     <div className="flex">
-        {/* <Sidebar /> */}
       <div className="flex flex-col items-center mt-4 px-4 justify-center">
         <div className="mt-4 p-2 bg-gray-400/50 backdrop-blur-sm text-slate-200 w-11/12	 rounded-md">
           <h3 className="text-4xl my-6 mt-10 font-semibold text-center">

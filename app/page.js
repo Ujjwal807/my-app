@@ -1,10 +1,6 @@
 "use client";
 import { useState } from "react";
 
-import { Cedarville_Cursive,Montserrat } from "next/font/google";
-const cursive = Cedarville_Cursive({ subsets: ["latin"], weight: "400" });
-const monteserrat = Montserrat({ subsets: ["latin"], weight: "400" });
-
 import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -12,8 +8,7 @@ import CounterContainer from "./components/CounterContainer";
 import InputText from "./components/InputText";
 import Bottombar from "./components/Bottombar";
 import HomeContent from "./components/HomeContent";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+
 
 export default function Home() {
   const [content, setContent] = useState("");
@@ -33,19 +28,11 @@ export default function Home() {
         theme="dark"
       />
 
-      <div className="max-w-screen-xl w-11/12 h-full ml-16	">
-          {/* <Navbar/> */}
-        <div className="flex flex-col	justify-center 	 items-center">
-          <h1
-            className={
-              "text-4xl sm:text-2xl md:text-4xl font-bold mt-4 mb-3 text-white"
-            }
-          >
-            Online Sentence Counter
-          </h1>
-          {/* <Sidebar /> */}
-          <CounterContainer content={content} />
-          <div className="w-full">
+      <div className="max-w-screen-xl w-full h-full ">
+        <div className="flex flex-col justify-center items-center">
+            <p className="text-white py-2 my-6 px-52">Our online sentence counter is a comprehensive tool that accurately counts sentences, words, and characters in your text. It offers unique features like text upload, copy/paste functionality, live character count, highlighting, and downloadable reports to enhance your writing experience and optimize your content for clarity, engagement, and SEO performance.</p>
+            <CounterContainer content={content} />
+          <div className="w-full min-[320px]:w-11/12">
             <InputText content={content} setContent={setContent} />
             <Bottombar content={content} setContent={setContent} />
           </div>
