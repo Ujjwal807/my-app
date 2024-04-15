@@ -2,10 +2,7 @@
 function HomeContent() {
   return (
     <div className="mt-10 mb-6 p-2 bg-gray-700/50 backdrop-blur-sm text-slate-200  w-full rounded-md">
-      <h3 className="text-4xl my-6 mt-10 font-semibold text-center">
-        Online Sentence Counter
-      </h3>
-      <p className="px-6">
+      <p className="px-6 mt-6">
         In today's digital age, online sentence counters have become an
         indispensable tool for writers, bloggers, and content creators. Whether
         you're crafting a blog post, an article, or a social media update,
@@ -53,15 +50,23 @@ function HomeContent() {
       <div className="w-full flex justify-center mt-6">
         <table className="p-2 ">
           <thead>
-            <tr >
-              <th className="p-1 border-2 border-white pr-6">Sentence Length</th>
-              <th className="p-1 border-white border-2  pr-6">Readability Level</th>
+            <tr>
+              <th className="p-1 border-2 border-white pr-6">
+                Sentence Length
+              </th>
+              <th className="p-1 border-white border-2  pr-6">
+                Readability Level
+              </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="p-1 border-white border-2 pr-6">8 words or less</td>
-              <td className="p-1 border-white border-2 pr-6">Very easy to read</td>
+              <td className="p-1 border-white border-2 pr-6">
+                8 words or less
+              </td>
+              <td className="p-1 border-white border-2 pr-6">
+                Very easy to read
+              </td>
             </tr>
             <tr>
               <td className="p-1 border-white border-2 pr-6">11 words</td>
@@ -77,7 +82,9 @@ function HomeContent() {
             </tr>
             <tr>
               <td className="p-1 border-white border-2 pr-6">21 words</td>
-              <td className="p-1 border-white border-2 pr-6">Fairly difficult</td>
+              <td className="p-1 border-white border-2 pr-6">
+                Fairly difficult
+              </td>
             </tr>
             <tr>
               <td className="p-1 border-white border-2 pr-6">25 words</td>
@@ -208,7 +215,9 @@ function HomeContent() {
         more independent clauses are joined without proper punctuation or
         conjunctions, resulting in an inaccurate sentence count.
       </p>
-      <p className="p-6 min-[320px]:px-4">To avoid this issue, follow these tips:</p>
+      <p className="p-6 min-[320px]:px-4">
+        To avoid this issue, follow these tips:
+      </p>
       <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li className="mt-2">
           Use proper punctuation, such as periods, commas, and semicolons, to

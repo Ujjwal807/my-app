@@ -15,7 +15,7 @@ function Navbar() {
       <div className="max-w-[1200px] flex justify-between items-center mx-auto px-8 min-[320px]:pl-[1rem]">
         <div>
           <h1 className={`text-2xl ${lato.className}`}>
-            {" "}
+            
             <Link href="/">Online Sentence Counter</Link>
           </h1>
         </div>
