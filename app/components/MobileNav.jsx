@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-
-
 function MobileNav({ setClicked }) {
   return (
     <div className="bg-black h-full flex flex-col gap-8 fixed h-ful z-10 top-0 right-0 py-8 pl-10 pr-28">

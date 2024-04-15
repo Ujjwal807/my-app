@@ -1,14 +1,13 @@
 'use client'
 
-
 export default function About() {
   return (
     <div className="flex">
       <div className="flex flex-col items-center mt-4 px-4 justify-center">
         <div className="mt-4 p-2 bg-gray-400/50 backdrop-blur-sm text-slate-200 w-11/12	 rounded-md">
-          <h3 className="text-4xl my-6 mt-10 font-semibold text-center">
+          <h1 className="text-4xl my-6 mt-10 font-semibold text-center">
             About Us
-          </h3>
+          </h1>
           <p className="px-6">
             {/* eslint-disable-next-line react/no-unescaped-entities */}
             Welcome to our online sentence counter website, where we're
@@ -18,7 +17,7 @@ export default function About() {
             user-friendly tool that empowers individuals to optimize their
             writing for clarity, readability, and impact.
           </p>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Story</h3>
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Story</h2>
           <p className="px-6">
             As avid writers ourselves, we understand the challenges that come
             {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -31,9 +30,9 @@ export default function About() {
             basic counting and provides a range of features to enhance your
             writing experience.
           </p>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
             Our Mission
-          </h3>
+          </h2>
           <p className="px-6">
             Our mission is to empower writers worldwide by providing them with
             the tools and insights they need to create exceptional content. We
@@ -42,7 +41,7 @@ export default function About() {
             that can help them refine their craft and communicate their ideas
             effectively.
           </p>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Team</h3>
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Team</h2>
           <p className="px-6">
             Our team consists of experienced writers, developers, and designers
             {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -51,9 +50,9 @@ export default function About() {
             only delivers accurate results but also offers a seamless and
             enjoyable user experience.
           </p>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
             Our Commitment to Excellence
-          </h3>
+          </h2>
           <p className="px-6">
             {/* eslint-disable-next-line react/no-unescaped-entities */}
             We're committed to maintaining the highest standards of quality and
@@ -63,9 +62,9 @@ export default function About() {
             also value your feedback and suggestions, as they help us shape the
             future of our tool and better serve your needs.
           </p>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
             Our Core Values
-          </h3>
+          </h2>
           <ol type="1" className="py-4 px-8">
             <li>
               <span className="font-bold mt-2">Accuracy :</span> We strive to
@@ -98,9 +97,9 @@ export default function About() {
               supportive community of content creators.
             </li>
           </ol>
-          <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
             Join Us on Our Journey
-          </h3>
+          </h2>
           <p className="px-6">
             We invite you to join us on our journey to revolutionize the way
             {/* eslint-disable-next-line react/no-unescaped-entities */}
