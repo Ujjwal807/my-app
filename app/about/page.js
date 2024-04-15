@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div className="flex">
       <div className="flex flex-col items-center mt-4 px-4 justify-center">
-        <div className="mt-4 p-2 bg-gray-400/50 backdrop-blur-sm text-slate-200 w-11/12	 rounded-md">
-          <h1 className="text-4xl my-6 mt-10 font-semibold text-center">
+        <div className="mt-4 p-2 mb-4 bg-zinc-600/30 backdrop-blur-sm text-slate-200 w-11/12	 rounded-md">
+          <h1 className="text-4xl my-4 font-semibold text-center">
             About Us
           </h1>
           <p className="px-6">
@@ -17,7 +17,7 @@ export default function About() {
             user-friendly tool that empowers individuals to optimize their
             writing for clarity, readability, and impact.
           </p>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Story</h2>
+          <h2 className="text-2xl my-2 font-semibold pl-5">Our Story</h2>
           <p className="px-6">
             As avid writers ourselves, we understand the challenges that come
             {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -30,7 +30,7 @@ export default function About() {
             basic counting and provides a range of features to enhance your
             writing experience.
           </p>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-2xl my-2 font-semibold pl-5">
             Our Mission
           </h2>
           <p className="px-6">
@@ -41,7 +41,7 @@ export default function About() {
             that can help them refine their craft and communicate their ideas
             effectively.
           </p>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Team</h2>
+          <h2 className="text-2xl my-2 font-semibold pl-5">Our Team</h2>
           <p className="px-6">
             Our team consists of experienced writers, developers, and designers
             {/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -50,7 +50,7 @@ export default function About() {
             only delivers accurate results but also offers a seamless and
             enjoyable user experience.
           </p>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-2xl my-2 font-semibold pl-5">
             Our Commitment to Excellence
           </h2>
           <p className="px-6">
@@ -62,7 +62,7 @@ export default function About() {
             also value your feedback and suggestions, as they help us shape the
             future of our tool and better serve your needs.
           </p>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-2xl  font-semibold pl-5">
             Our Core Values
           </h2>
           <ol type="1" className="py-4 px-8">
@@ -97,7 +97,7 @@ export default function About() {
               supportive community of content creators.
             </li>
           </ol>
-          <h2 className="text-3xl my-6 mt-10 font-semibold pl-5">
+          <h2 className="text-2xl  font-semibold pl-5">
             Join Us on Our Journey
           </h2>
           <p className="px-6">

@@ -1,20 +1,20 @@
 /* eslint-disable react/no-unescaped-entities */
 function Privacy() {
     return (
-        <div className=" text-white py-10 ">
+        <div className=" text-white py-10 w-full ">
       <div>
-        <h1 className="font-bold  text-lg md:text-3xl py-4 text-center">
+        <h1 className="font-bold text-lg md:text-3xl py-4 text-center">
           Privacy Policy
         </h1>
       </div>
-      <div className="bg-zinc-600/30 text-white backdrop-blur-sm  p-2 md:p-8 rounded-md md:w-[1000px] mx-auto">
-        <p>
-          At sentence-counter.co, accessible from
+      <div className="bg-zinc-600/30 text-white backdrop-blur-sm w-full mx-auto p-2 md:p-8 rounded-md md:w-[1000px] ">
+        <p className="px-3">
+          At sentence-counter.co, accessible from 
           <a
             href="https://sentence-counter.co/"
-            className="font-semibold underline"
+            className="font-semibold ml-1 underline"
           >
-            sentence-counter.co
+             sentence-counter.co
           </a>
           , one of our main priorities is the privacy of our visitors. This
           Privacy Policy document contains types of information that is
@@ -31,41 +31,41 @@ function Privacy() {
         <div>
           <ul>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Consent</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 By using our website, you hereby consent to our Privacy Policy
                 and agree to its terms.
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Information we collect</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 The personal information that you are asked to provide, and the
                 reasons why you are asked to provide it, will be made clear to
                 you at the point we ask you to provide your personal
                 information.
               </p>
-              <p>
+              <p className="px-3">
                 If you contact us directly, we may receive additional
                 information about you such as your name, email address, phone
                 number, the contents of the message and/or attachments you may
                 send us, and any other information you may choose to provide.
               </p>
-              <p>
+              <p className="px-3">
                 When you register for an Account, we may ask for your contact
                 information, including items such as name, company name,
                 address, email address, and telephone number.
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>How we use your information</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 We use the information we collect in various ways, including to:
               </p>
               <p>
@@ -80,10 +80,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Log Files</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 sentence-counter.co follows a standard procedure of using
                 log files. These files log visitors when they visit websites.
                 All hosting companies do this and a part of hosting services'
@@ -98,10 +98,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Cookies and Web Beacons</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 Like any other website, sentence-counter.co uses "cookies".
                 These cookies are used to store information including visitor's
                 preferences, and the pages on the website that the visitor
@@ -111,10 +111,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Google DoubleClick DART Cookie</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 Google is one of a third-party vendor on our site. It also uses
                 cookies, known as DART cookies, to serve ads to our site
                 visitors based upon their visit to www.website.com and other
@@ -125,10 +125,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Advertising Partners Privacy Policies</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 You may consult this list to find the Privacy Policy for each of
                 the advertising partners of sentence-counter.co.
                 Third-party ad servers or ad networks uses technologies like
@@ -144,10 +144,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Third Party Privacy Policies</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 sentence-counter.co's Privacy Policy does not apply to
                 other advertisers or websites. Thus, we are advising you to
                 consult the respective Privacy Policies of these third-party ad
@@ -163,16 +163,16 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>
                   CCPA Privacy Rights (Do Not Sell My Personal Information)
                 </strong>
               </h2>
-              <p>
+              <p className="px-3">
                 Under the CCPA, among other rights, California consumers have
                 the right to:
               </p>
-              <p>
+              <p className="px-3">
                 Request that a business that collects a consumer's personal data
                 disclose the categories and specific pieces of personal data
                 that a business has collected about consumers. Request that a
@@ -185,14 +185,14 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>GDPR Data Protection Rights</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 We would like to make sure you are fully aware of all of your
                 data protection rights. Every user is entitled to the following:
               </p>
-              <p>
+              <p className="px-3">
                 The right to access – You have the right to request copies of
                 your personal data. We may charge you a small fee for this
                 service. The right to rectification – You have the right to
@@ -213,16 +213,16 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Children's Information</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 Another part of our priority is adding protection for children
                 while using the internet. We encourage parents and guardians to
                 observe, participate in, and/or monitor and guide their online
                 activity.
               </p>
-              <p>
+              <p className="px-3">
                 sentence-counter.co does not knowingly collect any Personal
                 Identifiable Information from children under the age of 13. If
                 you think that your child provided this kind of information on
@@ -232,10 +232,10 @@ function Privacy() {
               </p>
             </li>
             <li>
-              <h2>
+              <h2 className="text-2xl my-2">
                 <strong>Changes to This Privacy Policy</strong>
               </h2>
-              <p>
+              <p className="px-3">
                 We may update our Privacy Policy from time to time. Thus, we
                 advise you to review this page periodically for any changes. We
                 will notify you of any changes by posting the new Privacy Policy
