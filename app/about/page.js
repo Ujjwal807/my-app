@@ -1,5 +1,6 @@
 'use client'
 
+
 export default function About() {
   return (
     <div className="flex">
@@ -9,6 +10,7 @@ export default function About() {
             About Us
           </h3>
           <p className="px-6">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             Welcome to our online sentence counter website, where we're
             passionate about helping writers, bloggers, and content creators
             craft compelling, well-structured, and engaging content. Our journey
@@ -19,9 +21,11 @@ export default function About() {
           <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Story</h3>
           <p className="px-6">
             As avid writers ourselves, we understand the challenges that come
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             with creating content that resonates with your audience. We've
             experienced the frustration of manually counting sentences, words,
             and characters, and the uncertainty of whether our content meets the
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             desired readability standards. That's why we set out to develop a
             powerful, yet intuitive, online sentence counter that goes beyond
             basic counting and provides a range of features to enhance your
@@ -41,6 +45,7 @@ export default function About() {
           <h3 className="text-3xl my-6 mt-10 font-semibold pl-5">Our Team</h3>
           <p className="px-6">
             Our team consists of experienced writers, developers, and designers
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             who share a common passion for language and technology. We've
             combined our expertise to create an online sentence counter that not
             only delivers accurate results but also offers a seamless and
@@ -50,6 +55,7 @@ export default function About() {
             Our Commitment to Excellence
           </h3>
           <p className="px-6">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             We're committed to maintaining the highest standards of quality and
             accuracy in our online sentence counter. We continuously update and
             improve our algorithms to ensure that you receive reliable results,
@@ -68,11 +74,12 @@ export default function About() {
               your content.
             </li>
             <li className="mt-2">
-              <span className="font-bold">User-Centricity :</span> We prioritize
+              <span className="font-bold">User-Centrality :</span> We prioritize
               your experience and satisfaction by offering a user-friendly
               interface, intuitive features, and responsive customer support.
             </li>
             <li className="mt-2">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <span className="font-bold">Innovation :</span> We're constantly
               exploring new ways to enhance our online sentence counter,
               incorporating cutting-edge technologies and user feedback to
@@ -96,6 +103,7 @@ export default function About() {
           </h3>
           <p className="px-6">
             We invite you to join us on our journey to revolutionize the way
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             writers create and optimize their content. Whether you're a blogger,
             novelist, journalist, or marketer, our online sentence counter is
             designed to help you achieve your writing goals and connect with
@@ -103,6 +111,7 @@ export default function About() {
           </p>
           <p className="px-6">
             Try our online sentence counter today and experience the difference
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             for yourself. We're confident that our tool will become an
             indispensable part of your writing process, saving you time, effort,
             and frustration while empowering you to create content that truly
