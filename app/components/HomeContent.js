@@ -51,41 +51,41 @@ function HomeContent() {
         determining the readability of a text. Here are some key findings:
       </p>
       <div className="w-full flex justify-center mt-6">
-        <table className="p-2">
+        <table className="p-2 ">
           <thead>
-            <tr>
-              <th className="p-1 pr-6">Sentence Length</th>
-              <th className="p-1 pr-6">Readability Level</th>
+            <tr >
+              <th className="p-1 border-2 border-white pr-6">Sentence Length</th>
+              <th className="p-1 border-white border-2  pr-6">Readability Level</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="p-1 pr-6">8 words or less</td>
-              <td className="p-1 pr-6">Very easy to read</td>
+              <td className="p-1 border-white border-2 pr-6">8 words or less</td>
+              <td className="p-1 border-white border-2 pr-6">Very easy to read</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">11 words</td>
-              <td className="p-1 pr-6">Easy</td>
+              <td className="p-1 border-white border-2 pr-6">11 words</td>
+              <td className="p-1 border-white border-2 pr-6">Easy</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">14 words</td>
-              <td className="p-1 pr-6">Fairly easy</td>
+              <td className="p-1 border-white border-2 pr-6">14 words</td>
+              <td className="p-1 border-white border-2 pr-6">Fairly easy</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">17 words</td>
-              <td className="p-1 pr-6">Standard</td>
+              <td className="p-1 border-white border-2 pr-6">17 words</td>
+              <td className="p-1 border-white border-2 pr-6">Standard</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">21 words</td>
-              <td className="p-1 pr-6">Fairly difficult</td>
+              <td className="p-1 border-white border-2 pr-6">21 words</td>
+              <td className="p-1 border-white border-2 pr-6">Fairly difficult</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">25 words</td>
-              <td className="p-1 pr-6">Difficult</td>
+              <td className="p-1 border-white border-2 pr-6">25 words</td>
+              <td className="p-1 border-white border-2 pr-6">Difficult</td>
             </tr>
             <tr>
-              <td className="p-1 pr-6">29+ words</td>
-              <td className="p-1 pr-6">Very difficult</td>
+              <td className="p-1 border-white border-2 pr-6">29+ words</td>
+              <td className="p-1 border-white border-2 pr-6">Very difficult</td>
             </tr>
           </tbody>
         </table>
