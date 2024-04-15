@@ -7,9 +7,9 @@ function Privacy() {
           Privacy Policy
         </h1>
       </div>
-      <div className="bg-gray-400/70 text-white backdrop-blur-sm  p-2 md:p-8 rounded-md md:w-[1000px] mx-auto">
+      <div className="bg-zinc-600/30 text-white backdrop-blur-sm  p-2 md:p-8 rounded-md md:w-[1000px] mx-auto">
         <p>
-          At randommoviegenerator.net, accessible from{" "}
+          At randommoviegenerator.net, accessible from
           <a
             href="https://randommoviegenerator.net"
             className="font-semibold underline"

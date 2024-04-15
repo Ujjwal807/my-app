@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
 
-import { Cedarville_Cursive } from "next/font/google";
+import { Cedarville_Cursive,Montserrat } from "next/font/google";
 const cursive = Cedarville_Cursive({ subsets: ["latin"], weight: "400" });
+const monteserrat = Montserrat({ subsets: ["latin"], weight: "400" });
 
 import { ToastContainer } from "react-toastify";
 
@@ -18,7 +19,7 @@ export default function Home() {
   const [content, setContent] = useState("");
 
   return (
-    <main className="flex pt-10  justify-center">
+    <main className="flex  justify-center">
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -35,18 +36,21 @@ export default function Home() {
       <div className="max-w-screen-xl w-11/12 h-full ml-16	">
           {/* <Navbar/> */}
         <div className="flex flex-col	justify-center 	 items-center">
-          {/* <h1
+          <h1
             className={
-              `${cursive.className} ` + "text-4xl font-bold text-white"
+              "text-4xl sm:text-2xl md:text-4xl font-bold mt-4 mb-3 text-white"
             }
           >
-            Counter
-          </h1> */}
+            Online Sentence Counter
+          </h1>
           {/* <Sidebar /> */}
           <CounterContainer content={content} />
           <div className="w-full">
             <InputText content={content} setContent={setContent} />
             <Bottombar content={content} setContent={setContent} />
+          </div>
+          <div className="mt-6">
+            <button className="py-2 px-6 bg-indigo-500 rounded-lg text-white text-2xl">Download Report</button>
           </div>
           <HomeContent />
         </div>

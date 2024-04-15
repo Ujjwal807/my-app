@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 function HomeContent() {
   return (
-    <div className="mt-24 mb-6 p-2 bg-gray-700/50 backdrop-blur-sm text-slate-200  w-full rounded-md">
+    <div className="mt-10 mb-6 p-2 bg-gray-700/50 backdrop-blur-sm text-slate-200  w-full rounded-md">
       <h3 className="text-4xl my-6 mt-10 font-semibold text-center">
         Online Sentence Counter
       </h3>
