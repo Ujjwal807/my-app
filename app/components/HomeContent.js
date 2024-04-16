@@ -15,10 +15,10 @@ function HomeContent() {
       <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
         Why is an Accurate Sentence Count Important?
       </h3>
-      <p className="px-6 min-[320px]:text-2xl">
+      <p className="px-4 min-[320px]:text-xl">
         An accurate sentence count is essential for several reasons:
       </p>
-      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4 list-decimal">
         <li>
           <span className="font-bold mt-2">Readability :</span> The length and
           complexity of your sentences can significantly impact the readability
@@ -112,7 +112,7 @@ function HomeContent() {
         additional features to enhance your writing experience. Here's how it
         works:
       </p>
-      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4 list-decimal">
         <li>
           <span className="font-bold mt-2">
             Text Upload and Copy/Paste Functionality :
@@ -134,33 +134,32 @@ function HomeContent() {
           <span className="font-bold">Comprehensive Metrics :</span> In addition
           to providing an accurate sentence count, our tool offers a range of
           additional metrics to help you optimize your content:
+
+          <ol type="1" className="py-4 px-16 min-[320px]:px-4 list-disc">
+            <li>
+              <span className="font-bold mt-2">Word Count :</span>
+              Knowing the total number of words in your text is essential for
+              meeting specific word count guidelines or requirements.
+            </li>
+            <li className="mt-2">
+              <span className="font-bold">Character Count :</span> Our tool provides
+              a character counter, which is particularly useful when crafting
+              content with strict character limits, such as social media posts or
+              SMS messages.
+            </li>
+            <li className="mt-2">
+              <span className="font-bold">Reading Time :</span> Based on the average
+              reading speed, our sentence counter estimates the reading time for
+              your text, helping you gauge how long it will take your audience to
+              consume your content.
+            </li>
+            <li className="mt-2">
+              <span className="font-bold">Paragraph Count :</span> By providing a
+              paragraph count, our tool helps you structure and organize your
+              content effectively.
+            </li>
+          </ol>
         </li>
-      </ol>
-      <ol type="1" className="py-4 px-16 min-[320px]:px-4">
-        <li>
-          <span className="font-bold mt-2">Word Count :</span>
-          Knowing the total number of words in your text is essential for
-          meeting specific word count guidelines or requirements.
-        </li>
-        <li className="mt-2">
-          <span className="font-bold">Character Count :</span> Our tool provides
-          a character counter, which is particularly useful when crafting
-          content with strict character limits, such as social media posts or
-          SMS messages.
-        </li>
-        <li className="mt-2">
-          <span className="font-bold">Reading Time :</span> Based on the average
-          reading speed, our sentence counter estimates the reading time for
-          your text, helping you gauge how long it will take your audience to
-          consume your content.
-        </li>
-        <li className="mt-2">
-          <span className="font-bold">Paragraph Count :</span> By providing a
-          paragraph count, our tool helps you structure and organize your
-          content effectively.
-        </li>
-      </ol>
-      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
         <li className="mt-2">
           <span className="font-bold">
             Highlighting and Downloadable Reports :
@@ -172,6 +171,7 @@ function HomeContent() {
           insights gained from our tool.
         </li>
       </ol>
+
       <h3 className="text-3xl my-6 mt-10 font-semibold text-center">
         Top Features of Our Sentence Counter Tool
       </h3>
@@ -179,7 +179,7 @@ function HomeContent() {
         Our online sentence counter offers a range of unique features designed
         to enhance your writing experience:
       </p>
-      <ul className="py-4 px-8 min-[320px]:px-4">
+      <ul className="py-4 px-8 min-[320px]:px-4 list-disc">
         <li>
           <span className="font-bold">Text Upload :</span>
           Easily upload text files in various formats (TXT, DOCX, etc.) for
@@ -218,7 +218,7 @@ function HomeContent() {
       <p className="p-6 min-[320px]:px-4">
         To avoid this issue, follow these tips:
       </p>
-      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4 list-decimal">
         <li className="mt-2">
           Use proper punctuation, such as periods, commas, and semicolons, to
           separate independent clauses.
@@ -239,7 +239,7 @@ function HomeContent() {
         a comprehensive set of features designed to enhance your writing
         experience:
       </p>
-      <ol type="1" className="py-4 px-8 min-[320px]:px-4">
+      <ol type="1" className="py-4 px-8 min-[320px]:px-4 list-decimal">
         <li className="mt-2">
           <span className="font-bold">Accuracy :</span>
           Our advanced algorithms ensure that you receive an accurate sentence
