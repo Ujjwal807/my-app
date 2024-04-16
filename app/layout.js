@@ -10,12 +10,18 @@ export const metadata = {
   title: "Online Sentence Counter",
   description:
     "Accurate online sentence counter with word count, character count, and readability metrics for optimized writing",
+    icons: {
+        icon: '/icon.ico', // /public path
+    },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
+    <head>
+        <link rel="icon" type="image/x-icon" href="icon.ico"/>
+    </head>
+    <body
         className={lato.className}
         style={{
           background: "url(/bg.jpg)",
