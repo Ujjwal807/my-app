@@ -13,7 +13,7 @@ function MobileNav({ setClicked }) {
               <Link href="/">Home</Link>
           </li>
           <li className="cursor-pointer hover:underline">
-              <Link href="/about-us">About Us</Link>
+              <Link href="/about">About Us</Link>
           </li>
           <li className="cursor-pointer hover:underline">
               <Link href="/contact-us">Contact Us</Link>
