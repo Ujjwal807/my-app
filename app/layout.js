@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <body
         className={lato.className}
         style={{
-          background: "url(/bg.jpg)",
+          background: "url(/bg.webp)",
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
